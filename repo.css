@@ -1,0 +1,63 @@
+/* Estilos customizados */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.778);
+    width: 100%;
+    background-color: #333;
+}
+
+h4 {
+    color: rgb(97, 143, 212);
+}
+
+.row {
+    justify-content: center;
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    grid-column: span 2;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
